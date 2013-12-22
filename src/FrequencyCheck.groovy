@@ -3,4 +3,6 @@ import frequency.Manager
 Manager manager = new Manager("../data/file.bin")
 manager.countFrequencies()
 
-manager.print()
+File res = new File("../data/result.txt")
+res.write(manager.buildString())
+

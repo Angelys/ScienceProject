@@ -25,7 +25,7 @@ class Manager {
         }
     }
 
-    public print(){
+    public buildString(){
 
         String result = ""
 
@@ -35,7 +35,7 @@ class Manager {
             result += "$k => $v \n"
         }
 
-        print result
+        return result
 
     }
 
